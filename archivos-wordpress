@@ -1,1 +1,6 @@
+lista = ["header.php","footer.php","sidebar.php","front-page.php","home.php","single.php","page.php","category.php","comments.php","search.php","404.php","functions.php"]
+
+for x in lista:
+	file = open(x, "w")
+	file.close()
 
